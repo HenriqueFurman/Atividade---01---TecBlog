@@ -6,12 +6,12 @@
 
 bory{
     font-family: Arial, Helvetica, sans-serif;
-    background: #e9e7e7;
+    background: #ffffff; /* Fundo do site branco */
 }
 
 /* Layout*/
 #area-cabecalho{
-    background-color: #1e89e0;
+    background-color: #1e89e0; /* Cor do cabeçalho */
     padding: 15px;
     text-align: center;
 }
@@ -29,6 +29,7 @@ bory{
 #area-postagens{
     width: 660px;
     float: left;
+    background-color: #e6e6e6; /* Cor de fundo das postagens */
 }
 
 #area-lateral{
@@ -39,11 +40,10 @@ bory{
 .postagens{
     padding: 20px;
     margin-bottom: 20px;
-    background-color: #ecf4ec;/*é a cor do fundo onde esta as postagems*/
 }
 
 .conteudo-lateral{
-    background-color: #fefffe;
+    background-color: #e6e6e6; /* Cor de fundo da área lateral */
     padding: 10px;
     border-bottom: 1px dotted #3f92b3;
 }
@@ -62,7 +62,7 @@ a{
 }
 
 a:link, a:visited{
-    color: #adb427;
+    color: #adb427;/* Cor dos links */
 }
 
 a:hover{
@@ -87,7 +87,7 @@ h1{
 }
 
 h2{
-    color: #def14e;
+    color: #1D1E2C;
     font-size: 30px;
 }
 
